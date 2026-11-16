@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "domain": "masterclass-sintesis-por-modelado-fisico.music.lynxpardelle.com",
+  "pageId": "default",
+  "rootIds": [
+    "site-shell"
+  ],
+  "modalRootIds": [],
+  "seo": {
+    "title": "Síntesis por modelado físico | Lynx Pardelle",
+    "description": "Trabaja con sintetizadores que imitan la vibración de materiales. Escucha cómo la excitación y la resonancia cambian el ataque, el cuerpo y la caída de un sonido.",
+    "canonical": "https://masterclass-sintesis-por-modelado-fisico.music.lynxpardelle.com/",
+    "robots": "index,follow",
+    "openGraph": {
+      "image": "https://assets.zoolandingpage.com.mx/music.lynxpardelle.com/shared/images/lynx-offer-v1-masterclass-diseno.webp"
+    }
+  }
+}
