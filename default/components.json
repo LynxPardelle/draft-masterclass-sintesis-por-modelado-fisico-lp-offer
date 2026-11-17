@@ -140,215 +140,362 @@
       }
     },
     {
-      "id": "page-heading",
+      "id": "promo-pareja-label",
       "type": "text",
       "config": {
-        "id": "page-heading",
-        "text": "Síntesis por modelado físico",
-        "tag": "h1",
+        "id": "promo-pareja-label",
+        "text": "Por persona con el 2×1",
+        "tag": "h3",
         "styles": {
           "margin": "0",
-          "fontFamily": "\"Instrument Serif\", Georgia, serif",
-          "fontWeight": "400",
-          "lineHeight": "1",
-          "letterSpacing": "-.04em",
-          "textWrap": "balance",
-          "fontSize": "clamp(38px, 6vw, 82px)",
-          "color": "#f7f3ea",
-          "marginBlock": "9px 16px",
-          "maxWidth": "17ch"
+          "fontSize": "clamp(17px, 2.3vw, 23px)",
+          "fontWeight": "720"
         }
       }
     },
     {
-      "id": "offer-duration",
+      "id": "promo-pareja-amount",
       "type": "text",
       "config": {
-        "id": "offer-duration",
-        "text": "Duración · 3 a 4 horas",
+        "id": "promo-pareja-amount",
+        "text": "$875 MXN",
         "tag": "p",
         "styles": {
           "margin": "0",
-          "fontWeight": "720",
-          "marginTop": "14px"
+          "fontSize": "clamp(30px, 5.4vw, 60px)",
+          "lineHeight": "1.05",
+          "fontWeight": "800",
+          "marginBlock": "8px 12px"
         }
       }
     },
     {
-      "id": "hero-action",
-      "type": "link",
-      "config": {
-        "text": "Consultar por WhatsApp",
-        "href": "https://wa.me/525522699563?text=Hola%2C%20Lynx.%20Quisiera%20informaci%C3%B3n%20sobre%20la%20masterclass%20S%C3%ADntesis%20por%20modelado%20f%C3%ADsico.",
-        "styles": {
-          "color": "#141217",
-          "textUnderlineOffset": "4px",
-          "minHeight": "44px",
-          "display": "inline-flex",
-          "alignItems": "center",
-          "fontWeight": "750",
-          "padding": "8px 18px",
-          "background": "#f6c17d",
-          "textDecoration": "none",
-          "boxSizing": "border-box",
-          "borderRadius": "3px"
-        }
-      }
-    },
-    {
-      "id": "hero-details",
-      "type": "link",
-      "config": {
-        "text": "Ver el temario",
-        "href": "#contenido-de-la-oferta",
-        "styles": {
-          "color": "inherit",
-          "textUnderlineOffset": "4px",
-          "minHeight": "44px",
-          "display": "inline-flex",
-          "alignItems": "center",
-          "fontWeight": "640"
-        }
-      }
-    },
-    {
-      "id": "hero-label",
+      "id": "promo-pareja-detail",
       "type": "text",
       "config": {
-        "id": "hero-label",
-        "text": "Masterclass · Diseño sonoro",
+        "id": "promo-pareja-detail",
+        "text": "El total para las dos personas es $1,750 MXN.",
         "tag": "p",
         "styles": {
           "margin": "0",
-          "fontWeight": "760",
-          "textTransform": "uppercase",
-          "letterSpacing": ".13em",
-          "fontSize": "12px",
-          "color": "#f6c17d"
+          "maxWidth": "42ch"
         }
       }
     },
     {
-      "id": "hero-description",
+      "id": "promo-pareja",
+      "type": "container",
+      "config": {
+        "tag": "article",
+        "components": [
+          "promo-pareja-label",
+          "promo-pareja-amount",
+          "promo-pareja-detail"
+        ],
+        "styles": {
+          "background": "#c5da91",
+          "color": "#232b17",
+          "minWidth": "0",
+          "border": "1px solid #465c23",
+          "padding": "clamp(18px, 3.1vw, 33px)"
+        }
+      }
+    },
+    {
+      "id": "promo-individual-label",
       "type": "text",
       "config": {
-        "id": "hero-description",
-        "text": "Trabaja con sintetizadores que imitan la vibración de materiales. Escucha cómo la excitación y la resonancia cambian el ataque, el cuerpo y la caída de un sonido.",
+        "id": "promo-individual-label",
+        "text": "Una inscripción",
+        "tag": "h3",
+        "styles": {
+          "margin": "0",
+          "fontSize": "clamp(17px, 2.3vw, 23px)",
+          "fontWeight": "720"
+        }
+      }
+    },
+    {
+      "id": "promo-individual-amount",
+      "type": "text",
+      "config": {
+        "id": "promo-individual-amount",
+        "text": "$1,750 MXN",
         "tag": "p",
         "styles": {
           "margin": "0",
-          "maxWidth": "61ch",
-          "fontSize": "clamp(16px, 2vw, 21px)",
-          "lineHeight": "1.58"
+          "fontSize": "clamp(30px, 5.4vw, 60px)",
+          "lineHeight": "1.05",
+          "fontWeight": "800",
+          "marginBlock": "8px 12px"
         }
       }
     },
     {
-      "id": "hero-actions",
+      "id": "promo-individual-detail",
+      "type": "text",
+      "config": {
+        "id": "promo-individual-detail",
+        "text": "Tarifa promocional si te inscribes sin acompañante.",
+        "tag": "p",
+        "styles": {
+          "margin": "0",
+          "maxWidth": "42ch"
+        }
+      }
+    },
+    {
+      "id": "promo-individual",
+      "type": "container",
+      "config": {
+        "tag": "article",
+        "components": [
+          "promo-individual-label",
+          "promo-individual-amount",
+          "promo-individual-detail"
+        ],
+        "styles": {
+          "background": "transparent",
+          "color": "#232b17",
+          "minWidth": "0",
+          "border": "1px solid #465c23",
+          "padding": "clamp(18px, 3.1vw, 33px)"
+        }
+      }
+    },
+    {
+      "id": "price-heading",
+      "type": "text",
+      "config": {
+        "id": "price-heading",
+        "text": "Promoción 2×1",
+        "tag": "h2",
+        "styles": {
+          "margin": "0",
+          "fontSize": "clamp(29px, 4.2vw, 53px)",
+          "lineHeight": "1.1",
+          "fontWeight": "730"
+        }
+      }
+    },
+    {
+      "id": "price-intro",
+      "type": "text",
+      "config": {
+        "id": "price-intro",
+        "text": "Inscríbete con otra persona en la misma masterclass. Entre las dos cubren el precio promocional de una inscripción.",
+        "tag": "p",
+        "styles": {
+          "margin": "0",
+          "marginBlock": "10px 21px",
+          "maxWidth": "61ch"
+        }
+      }
+    },
+    {
+      "id": "price-list",
       "type": "container",
       "config": {
         "tag": "div",
         "components": [
-          "hero-action",
-          "hero-details"
+          "promo-pareja",
+          "promo-individual"
+        ],
+        "styles": {
+          "display": "grid",
+          "gap": "12px",
+          "gridTemplateColumns": "repeat(auto-fit, minmax(min(100%, 240px), 1fr))"
+        }
+      }
+    },
+    {
+      "id": "price-benefit-label-0",
+      "type": "text",
+      "config": {
+        "id": "price-benefit-label-0",
+        "text": "Practica en el estudio",
+        "tag": "h3",
+        "styles": {
+          "margin": "0",
+          "fontSize": "1.08rem",
+          "fontWeight": "760"
+        }
+      }
+    },
+    {
+      "id": "price-benefit-detail-0",
+      "type": "text",
+      "config": {
+        "id": "price-benefit-detail-0",
+        "text": "Tienes 25 % de descuento en el uso del estudio para practicar durante dos meses.",
+        "tag": "p",
+        "styles": {
+          "margin": "0",
+          "marginBlockStart": "5px",
+          "maxWidth": "55ch"
+        }
+      }
+    },
+    {
+      "id": "price-benefit-0",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "components": [
+          "price-benefit-label-0",
+          "price-benefit-detail-0"
+        ],
+        "styles": {
+          "paddingBlock": "12px",
+          "borderBlockEnd": "1px solid #465c23"
+        }
+      }
+    },
+    {
+      "id": "price-benefit-label-1",
+      "type": "text",
+      "config": {
+        "id": "price-benefit-label-1",
+        "text": "Continúa con otra masterclass",
+        "tag": "h3",
+        "styles": {
+          "margin": "0",
+          "fontSize": "1.08rem",
+          "fontWeight": "760"
+        }
+      }
+    },
+    {
+      "id": "price-benefit-detail-1",
+      "type": "text",
+      "config": {
+        "id": "price-benefit-detail-1",
+        "text": "Tienes 25 % de descuento en tu siguiente masterclass.",
+        "tag": "p",
+        "styles": {
+          "margin": "0",
+          "marginBlockStart": "5px",
+          "maxWidth": "55ch"
+        }
+      }
+    },
+    {
+      "id": "price-benefit-1",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "components": [
+          "price-benefit-label-1",
+          "price-benefit-detail-1"
+        ],
+        "styles": {
+          "paddingBlock": "12px",
+          "borderBlockEnd": "1px solid #465c23"
+        }
+      }
+    },
+    {
+      "id": "price-benefits",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "components": [
+          "price-benefit-0",
+          "price-benefit-1"
+        ],
+        "styles": {
+          "display": "grid",
+          "gridTemplateColumns": "repeat(auto-fit, minmax(min(100%, 250px), 1fr))",
+          "gap": "0 20px",
+          "marginBlockStart": "9px"
+        }
+      }
+    },
+    {
+      "id": "price-contact",
+      "type": "link",
+      "config": {
+        "text": "Consultar la promoción",
+        "href": "https://wa.me/525522699563?text=Hola%2C%20Lynx.%20Quisiera%20informaci%C3%B3n%20sobre%20la%20masterclass%20S%C3%ADntesis%20por%20modelado%20f%C3%ADsico.",
+        "styles": {
+          "color": "#232b17",
+          "textUnderlineOffset": "4px",
+          "minHeight": "44px",
+          "display": "inline-flex",
+          "alignItems": "center",
+          "background": "#c5da91",
+          "padding": "9px 17px",
+          "fontWeight": "760",
+          "textDecoration": "none",
+          "boxSizing": "border-box"
+        }
+      }
+    },
+    {
+      "id": "price-next-detail",
+      "type": "text",
+      "config": {
+        "id": "price-next-detail",
+        "text": "Consulta fechas y lugares para esa masterclass.",
+        "tag": "p",
+        "styles": {
+          "margin": "0"
+        }
+      }
+    },
+    {
+      "id": "price-next",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "components": [
+          "price-contact",
+          "price-next-detail"
         ],
         "styles": {
           "display": "flex",
-          "alignItems": "center",
           "flexWrap": "wrap",
-          "gap": "7px 18px",
-          "marginTop": "23px"
+          "alignItems": "center",
+          "gap": "9px 16px",
+          "marginBlockStart": "19px"
         }
       }
     },
     {
-      "id": "hero-copy",
+      "id": "pricing-frame",
       "type": "container",
       "config": {
         "tag": "div",
         "components": [
-          "hero-label",
-          "page-heading",
-          "hero-description",
-          "offer-duration",
-          "hero-actions"
-        ],
-        "styles": {
-          "minWidth": "0",
-          "position": "relative",
-          "zIndex": "1"
-        }
-      }
-    },
-    {
-      "id": "hero-art",
-      "type": "media",
-      "config": {
-        "tag": "image",
-        "src": "https://assets.zoolandingpage.com.mx/music.lynxpardelle.com/shared/images/lynx-offer-v1-masterclass-diseno.webp",
-        "alt": "",
-        "loading": "eager",
-        "fetchPriority": "high",
-        "decoding": "async",
-        "styles": {
-          "display": "block",
-          "width": "100%",
-          "position": "absolute",
-          "inset": "0",
-          "height": "100%",
-          "objectFit": "cover",
-          "objectPosition": "center"
-        }
-      }
-    },
-    {
-      "id": "hero-shade",
-      "type": "container",
-      "config": {
-        "tag": "div",
-        "components": [],
-        "styles": {
-          "position": "absolute",
-          "inset": "0",
-          "background": "linear-gradient(90deg, #151118f5, #151118c7 56%, #15111866), linear-gradient(0deg, #15111866, transparent 58%)"
-        }
-      }
-    },
-    {
-      "id": "hero-frame",
-      "type": "container",
-      "config": {
-        "tag": "div",
-        "components": [
-          "hero-copy"
+          "price-heading",
+          "price-intro",
+          "price-list",
+          "price-benefits",
+          "price-next"
         ],
         "styles": {
           "boxSizing": "border-box",
           "width": "min(100%, 1200px)",
           "marginInline": "auto",
           "paddingInline": "clamp(18px, 5vw, 66px)",
-          "paddingBlock": "clamp(40px, 7vw, 86px)",
-          "display": "grid",
-          "alignItems": "center",
-          "minHeight": "clamp(400px, 69svh, 620px)"
+          "paddingBlock": "clamp(40px, 7vw, 86px)"
         }
       }
     },
     {
-      "id": "hero",
+      "id": "pricing",
       "type": "container",
       "config": {
         "tag": "section",
         "components": [
-          "hero-art",
-          "hero-shade",
-          "hero-frame"
+          "pricing-frame"
         ],
         "styles": {
-          "position": "relative",
-          "overflow": "hidden",
-          "borderBlock": "1px solid #665446"
-        }
+          "background": "#eef1e2",
+          "color": "#232b17",
+          "borderBlockStart": "1px solid #465c23"
+        },
+        "id": "precios"
       }
     },
     {
@@ -356,7 +503,7 @@
       "type": "text",
       "config": {
         "id": "topic-heading-0",
-        "text": "Vibración, formas de onda y armónicos",
+        "text": "Presión sonora, medición, formas de onda y armónicos",
         "tag": "h3",
         "styles": {
           "margin": "0",
@@ -376,7 +523,7 @@
         ],
         "styles": {
           "paddingBlock": "15px",
-          "borderTop": "1px solid #d7cec3"
+          "borderTop": "1px solid #465c23"
         }
       }
     },
@@ -385,7 +532,7 @@
       "type": "text",
       "config": {
         "id": "topic-heading-1",
-        "text": "Partes del sintetizador y envolventes",
+        "text": "Partes del sintetizador y control por voltaje",
         "tag": "h3",
         "styles": {
           "margin": "0",
@@ -405,7 +552,7 @@
         ],
         "styles": {
           "paddingBlock": "15px",
-          "borderTop": "1px solid #d7cec3"
+          "borderTop": "1px solid #465c23"
         }
       }
     },
@@ -414,7 +561,7 @@
       "type": "text",
       "config": {
         "id": "topic-heading-2",
-        "text": "Excitación y resonancia",
+        "text": "Modulación con LFO y envolventes",
         "tag": "h3",
         "styles": {
           "margin": "0",
@@ -434,7 +581,7 @@
         ],
         "styles": {
           "paddingBlock": "15px",
-          "borderTop": "1px solid #d7cec3"
+          "borderTop": "1px solid #465c23"
         }
       }
     },
@@ -443,7 +590,7 @@
       "type": "text",
       "config": {
         "id": "topic-heading-3",
-        "text": "Modelado de comportamientos acústicos",
+        "text": "Excitación, resonancia y modelado de comportamientos acústicos",
         "tag": "h3",
         "styles": {
           "margin": "0",
@@ -463,7 +610,7 @@
         ],
         "styles": {
           "paddingBlock": "15px",
-          "borderTop": "1px solid #d7cec3"
+          "borderTop": "1px solid #465c23"
         }
       }
     },
@@ -595,7 +742,8 @@
           "activity-copy"
         ],
         "styles": {
-          "background": "#ece2d1",
+          "background": "#c5da91",
+          "color": "#232b17",
           "padding": "clamp(19px, 3vw, 32px)",
           "alignSelf": "start"
         }
@@ -643,163 +791,270 @@
           "topic-frame"
         ],
         "styles": {
-          "color": "#141217",
-          "background": "#f7f3ea"
+          "color": "#232b17",
+          "background": "#eef1e2"
         },
         "id": "contenido-de-la-oferta",
         "tabindex": -1
       }
     },
     {
-      "id": "price-label-0",
-      "type": "text",
+      "id": "context-art",
+      "type": "media",
       "config": {
-        "id": "price-label-0",
-        "text": "Precio promocional",
-        "tag": "p",
+        "tag": "image",
+        "src": "https://assets.zoolandingpage.com.mx/music.lynxpardelle.com/shared/images/lynx-offer-v1-masterclass-diseno.webp",
+        "alt": "Filtros y conectores de un sintetizador.",
+        "loading": "lazy",
+        "decoding": "async",
         "styles": {
-          "margin": "0",
-          "fontWeight": "700"
+          "display": "block",
+          "width": "100%",
+          "aspectRatio": "16 / 9",
+          "objectFit": "cover",
+          "maxHeight": "480px"
         }
       }
     },
     {
-      "id": "price-value-0",
-      "type": "text",
-      "config": {
-        "id": "price-value-0",
-        "text": "$1,750 MXN",
-        "tag": "p",
-        "styles": {
-          "margin": "0",
-          "fontSize": "clamp(19px, 3vw, 30px)",
-          "fontWeight": "760"
-        }
-      }
-    },
-    {
-      "id": "price-0",
+      "id": "offer-context",
       "type": "container",
       "config": {
         "tag": "div",
         "components": [
-          "price-label-0",
-          "price-value-0"
-        ],
-        "styles": {
-          "padding": "12px 0",
-          "borderTop": "1px solid #d7cec3"
-        }
-      }
-    },
-    {
-      "id": "price-label-1",
-      "type": "text",
-      "config": {
-        "id": "price-label-1",
-        "text": "Promoción 2×1 por persona",
-        "tag": "p",
-        "styles": {
-          "margin": "0",
-          "fontWeight": "700"
-        }
-      }
-    },
-    {
-      "id": "price-value-1",
-      "type": "text",
-      "config": {
-        "id": "price-value-1",
-        "text": "$875 MXN",
-        "tag": "p",
-        "styles": {
-          "margin": "0",
-          "fontSize": "clamp(19px, 3vw, 30px)",
-          "fontWeight": "760"
-        }
-      }
-    },
-    {
-      "id": "price-1",
-      "type": "container",
-      "config": {
-        "tag": "div",
-        "components": [
-          "price-label-1",
-          "price-value-1"
-        ],
-        "styles": {
-          "padding": "12px 0",
-          "borderTop": "1px solid #d7cec3"
-        }
-      }
-    },
-    {
-      "id": "price-heading",
-      "type": "text",
-      "config": {
-        "id": "price-heading",
-        "text": "Precios",
-        "tag": "h2",
-        "styles": {
-          "margin": "0",
-          "fontFamily": "\"Instrument Serif\", Georgia, serif",
-          "fontWeight": "400",
-          "lineHeight": "1",
-          "letterSpacing": "-.04em",
-          "textWrap": "balance",
-          "fontSize": "clamp(29px, 4vw, 51px)",
-          "marginBottom": "19px"
-        }
-      }
-    },
-    {
-      "id": "price-list",
-      "type": "container",
-      "config": {
-        "tag": "div",
-        "components": [
-          "price-0",
-          "price-1"
-        ],
-        "styles": {
-          "display": "grid",
-          "gridTemplateColumns": "repeat(auto-fit, minmax(min(100%, 210px), 1fr))",
-          "gap": "0 24px"
-        }
-      }
-    },
-    {
-      "id": "pricing-frame",
-      "type": "container",
-      "config": {
-        "tag": "div",
-        "components": [
-          "price-heading",
-          "price-list"
+          "context-art"
         ],
         "styles": {
           "boxSizing": "border-box",
           "width": "min(100%, 1200px)",
           "marginInline": "auto",
           "paddingInline": "clamp(18px, 5vw, 66px)",
-          "paddingBlock": "clamp(40px, 7vw, 86px)"
+          "paddingBlock": "clamp(22px, 5vw, 52px)"
         }
       }
     },
     {
-      "id": "pricing",
+      "id": "hero-label",
+      "type": "text",
+      "config": {
+        "id": "hero-label",
+        "text": "Masterclass · Diseño sonoro",
+        "tag": "p",
+        "styles": {
+          "margin": "0",
+          "fontWeight": "760",
+          "textTransform": "uppercase",
+          "letterSpacing": ".13em",
+          "fontSize": "12px",
+          "color": "#465c23"
+        }
+      }
+    },
+    {
+      "id": "page-heading",
+      "type": "text",
+      "config": {
+        "id": "page-heading",
+        "text": "Síntesis por modelado físico",
+        "tag": "h1",
+        "styles": {
+          "margin": "0",
+          "fontFamily": "\"Young Serif\", Georgia, serif",
+          "fontWeight": "680",
+          "lineHeight": ".99",
+          "letterSpacing": "-.035em",
+          "textWrap": "balance",
+          "fontSize": "clamp(33px, 5.4vw, 74px)",
+          "overflowWrap": "break-word",
+          "marginBlock": "10px 15px",
+          "maxWidth": "20ch"
+        }
+      }
+    },
+    {
+      "id": "hero-description",
+      "type": "text",
+      "config": {
+        "id": "hero-description",
+        "text": "Trabaja con sintetizadores que imitan la vibración de materiales. Escucha cómo la excitación y la resonancia cambian el ataque, el cuerpo y la caída de un sonido.",
+        "tag": "p",
+        "styles": {
+          "margin": "0",
+          "maxWidth": "52ch",
+          "fontSize": "clamp(16px, 2vw, 21px)",
+          "lineHeight": "1.58"
+        }
+      }
+    },
+    {
+      "id": "offer-duration",
+      "type": "text",
+      "config": {
+        "id": "offer-duration",
+        "text": "Duración · 3 a 4 horas",
+        "tag": "p",
+        "styles": {
+          "margin": "0",
+          "fontWeight": "700",
+          "marginBlockStart": "13px"
+        }
+      }
+    },
+    {
+      "id": "hero-action",
+      "type": "link",
+      "config": {
+        "text": "Consultar por WhatsApp",
+        "href": "https://wa.me/525522699563?text=Hola%2C%20Lynx.%20Quisiera%20informaci%C3%B3n%20sobre%20la%20masterclass%20S%C3%ADntesis%20por%20modelado%20f%C3%ADsico.",
+        "styles": {
+          "color": "#232b17",
+          "textUnderlineOffset": "4px",
+          "minHeight": "44px",
+          "display": "inline-flex",
+          "alignItems": "center",
+          "fontWeight": "750",
+          "padding": "8px 18px",
+          "background": "#c5da91",
+          "textDecoration": "none",
+          "boxSizing": "border-box",
+          "borderRadius": "3px"
+        }
+      }
+    },
+    {
+      "id": "hero-details",
+      "type": "link",
+      "config": {
+        "text": "Ver el temario",
+        "href": "#contenido-de-la-oferta",
+        "styles": {
+          "color": "inherit",
+          "textUnderlineOffset": "4px",
+          "minHeight": "44px",
+          "display": "inline-flex",
+          "alignItems": "center",
+          "fontWeight": "640"
+        }
+      }
+    },
+    {
+      "id": "hero-prices",
+      "type": "link",
+      "config": {
+        "text": "Ver la promoción",
+        "href": "#precios",
+        "styles": {
+          "color": "inherit",
+          "textUnderlineOffset": "4px",
+          "minHeight": "44px",
+          "display": "inline-flex",
+          "alignItems": "center",
+          "fontWeight": "640"
+        }
+      }
+    },
+    {
+      "id": "hero-actions",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "components": [
+          "hero-action",
+          "hero-details",
+          "hero-prices"
+        ],
+        "styles": {
+          "display": "flex",
+          "alignItems": "center",
+          "flexWrap": "wrap",
+          "gap": "5px 17px",
+          "marginBlockStart": "20px"
+        }
+      }
+    },
+    {
+      "id": "hero-heading",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "components": [
+          "hero-label",
+          "page-heading"
+        ],
+        "styles": {
+          "minWidth": "0"
+        }
+      }
+    },
+    {
+      "id": "hero-art",
+      "type": "media",
+      "config": {
+        "tag": "image",
+        "src": "https://assets.zoolandingpage.com.mx/music.lynxpardelle.com/shared/hero-images/masterclass-sintesis-por-modelado-fisico-r2-f78c24050291ae08.webp",
+        "alt": "Instrumentos de cuerda y equipo para observar su resonancia.",
+        "loading": "eager",
+        "fetchPriority": "high",
+        "decoding": "async",
+        "styles": {
+          "display": "block",
+          "width": "100%",
+          "objectFit": "cover",
+          "height": "clamp(205px, 37vw, 490px)"
+        }
+      }
+    },
+    {
+      "id": "hero-copy",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "components": [
+          "hero-description",
+          "offer-duration",
+          "hero-actions"
+        ],
+        "styles": {
+          "minWidth": "0"
+        }
+      }
+    },
+    {
+      "id": "hero-frame",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "components": [
+          "hero-heading",
+          "hero-copy"
+        ],
+        "styles": {
+          "boxSizing": "border-box",
+          "width": "min(100%, 1200px)",
+          "marginInline": "auto",
+          "paddingInline": "clamp(18px, 5vw, 66px)",
+          "paddingBlock": "clamp(25px, 5vw, 62px)",
+          "display": "grid",
+          "gridTemplateColumns": "repeat(auto-fit, minmax(min(100%, 325px), 1fr))",
+          "gap": "clamp(17px, 4.5vw, 58px)",
+          "alignItems": "start"
+        }
+      }
+    },
+    {
+      "id": "hero",
       "type": "container",
       "config": {
         "tag": "section",
         "components": [
-          "pricing-frame"
+          "hero-art",
+          "hero-frame"
         ],
         "styles": {
-          "background": "#ece2d1",
-          "color": "#141217"
-        },
-        "id": "precios"
+          "color": "#232b17",
+          "background": "#eef1e2",
+          "overflow": "hidden"
+        }
       }
     },
     {
@@ -903,7 +1158,7 @@
       "type": "link",
       "config": {
         "text": "Servicios",
-        "href": "https://music.lynxpardelle.com/formacion/servicios",
+        "href": "https://music.lynxpardelle.com/servicios",
         "styles": {
           "color": "inherit",
           "textUnderlineOffset": "4px",
@@ -941,7 +1196,7 @@
         "text": "LYNX PARDELLE",
         "href": "https://music.lynxpardelle.com/formacion",
         "styles": {
-          "color": "#f6c17d",
+          "color": "#c5da91",
           "textUnderlineOffset": "4px",
           "minHeight": "44px",
           "display": "inline-flex",
@@ -1019,7 +1274,7 @@
         "text": "Proyecto musical ↗",
         "href": "https://music.lynxpardelle.com/",
         "styles": {
-          "color": "#f6c17d",
+          "color": "#c5da91",
           "textUnderlineOffset": "4px",
           "minHeight": "44px",
           "display": "inline-flex",
@@ -1076,8 +1331,9 @@
         "tag": "main",
         "components": [
           "hero",
-          "topic-section",
           "pricing",
+          "topic-section",
+          "offer-context",
           "bio",
           "return-section"
         ],
@@ -1096,7 +1352,7 @@
           "site-footer"
         ],
         "styles": {
-          "background": "#141217",
+          "background": "#222818",
           "color": "#f7f3ea",
           "fontFamily": "\"Instrument Sans\", system-ui, sans-serif",
           "lineHeight": "1.6",
