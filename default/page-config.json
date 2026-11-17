@@ -7,12 +7,63 @@
   ],
   "modalRootIds": [],
   "seo": {
-    "title": "Síntesis por modelado físico | Lynx Pardelle",
-    "description": "Trabaja con sintetizadores que imitan la vibración de materiales. Escucha cómo la excitación y la resonancia cambian el ataque, el cuerpo y la caída de un sonido.",
+    "title": "Masterclass de síntesis por modelado físico | Lynx Pardelle",
+    "description": "Diseña timbres a partir de vibración, excitación y resonancia. Trabaja fundamentos del sonido y observa cómo responde un modelo al cambiar sus parámetros.",
     "canonical": "https://masterclass-sintesis-por-modelado-fisico.music.lynxpardelle.com/",
     "robots": "index,follow",
     "openGraph": {
+      "image": "https://assets.zoolandingpage.com.mx/music.lynxpardelle.com/shared/hero-images/masterclass-sintesis-por-modelado-fisico-r2-f78c24050291ae08.webp",
+      "title": "Masterclass de síntesis por modelado físico | Lynx Pardelle",
+      "description": "Diseña timbres a partir de vibración, excitación y resonancia. Trabaja fundamentos del sonido y observa cómo responde un modelo al cambiar sus parámetros.",
+      "url": "https://masterclass-sintesis-por-modelado-fisico.music.lynxpardelle.com/",
+      "imageAlt": "Instrumentos de cuerda y equipo para observar su resonancia."
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "Masterclass de síntesis por modelado físico | Lynx Pardelle",
+      "description": "Diseña timbres a partir de vibración, excitación y resonancia. Trabaja fundamentos del sonido y observa cómo responde un modelo al cambiar sus parámetros.",
       "image": "https://assets.zoolandingpage.com.mx/music.lynxpardelle.com/shared/hero-images/masterclass-sintesis-por-modelado-fisico-r2-f78c24050291ae08.webp"
     }
+  },
+  "structuredData": {
+    "entries": [
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://masterclass-sintesis-por-modelado-fisico.music.lynxpardelle.com/#webpage",
+        "name": "Síntesis por modelado físico",
+        "description": "Diseña timbres a partir de vibración, excitación y resonancia. Trabaja fundamentos del sonido y observa cómo responde un modelo al cambiar sus parámetros.",
+        "url": "https://masterclass-sintesis-por-modelado-fisico.music.lynxpardelle.com/",
+        "inLanguage": "es",
+        "isPartOf": {
+          "@type": "CollectionPage",
+          "name": "Masterclasses",
+          "url": "https://music.lynxpardelle.com/formacion/masterclasses"
+        },
+        "mainEntity": {
+          "@id": "https://masterclass-sintesis-por-modelado-fisico.music.lynxpardelle.com/#contenido-de-la-oferta"
+        }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "Course",
+        "@id": "https://masterclass-sintesis-por-modelado-fisico.music.lynxpardelle.com/#contenido-de-la-oferta",
+        "name": "Síntesis por modelado físico",
+        "description": "Diseña timbres a partir de vibración, excitación y resonancia. Trabaja fundamentos del sonido y observa cómo responde un modelo al cambiar sus parámetros.",
+        "url": "https://masterclass-sintesis-por-modelado-fisico.music.lynxpardelle.com/",
+        "image": "https://assets.zoolandingpage.com.mx/music.lynxpardelle.com/shared/hero-images/masterclass-sintesis-por-modelado-fisico-r2-f78c24050291ae08.webp",
+        "provider": {
+          "@id": "https://lynxpardelle.com/#person"
+        },
+        "inLanguage": "es",
+        "offers": {
+          "@type": "Offer",
+          "name": "Una inscripción",
+          "url": "https://masterclass-sintesis-por-modelado-fisico.music.lynxpardelle.com/#precios",
+          "price": 1750,
+          "priceCurrency": "MXN"
+        }
+      }
+    ]
   }
 }
